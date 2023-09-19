@@ -1,0 +1,52 @@
+body{
+    height: auto;
+    background-image: url("./teste.jpeg");
+    position:static;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5em;
+
+}
+
+#menu{
+    background-color: rgba(96, 108, 100, 0.893);
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:link{
+    text-decoration: none;
+
+}
+
+#menu .botao{
+    background-color: rgba(64, 64, 188, 0.812);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 0.5em 2em;
+    margin: 0 1vh;
+    border: 2px solid;
+}
+
+#menu .botao:hover{
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
